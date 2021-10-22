@@ -18,6 +18,7 @@ export default function Photos(props) {
                     src={photo.src.landscape}
                     key={index}
                     className="img-fluid"
+                    alt="visual"
                   />
                 </a>
               </div>
