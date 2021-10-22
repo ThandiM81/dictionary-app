@@ -1,19 +1,28 @@
+body {
+  background: rgb(250, 250, 178);
+  color: rgb(73, 72, 73);
+}
+
 .App-header {
   margin: 20px;
   font-weight: bold;
+  font-size: 36px;
 }
 .container {
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .headerPicture {
   margin-top: 20px;
-  max-width: 400px;
+  max-width: 200px;
   margin: 0 auto;
   display: block;
 }
 
-.Intro,
-.Dictionary {
+.Intro {
   text-align: center;
+}
+
+a {
+  color: rgb(73, 72, 73);
 }
