@@ -13,6 +13,26 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="flower" />
         </main>
+        <footer>
+          <small>
+            This project was coded by ThandiM and is open-sourced on{" "}
+            <a
+              href="https://github.com/ThandiM81/dictionary-app"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://vigorous-galileo-11849e.netlify.app/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Netlify
+            </a>
+          </small>
+        </footer>
       </div>
     </div>
   );
